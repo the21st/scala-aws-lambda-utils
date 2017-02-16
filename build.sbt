@@ -1,9 +1,7 @@
 name := "scala-aws-lambda-utils"
 organization := "io.github.yeghishe"
 version := "0.0.3"
-val primaryScalaVersion = "2.12.1"
-crossScalaVersions := Seq("2.10.6", "2.11.8", primaryScalaVersion)
-scalaVersion := primaryScalaVersion
+scalaVersion := "2.11.8"
 scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf8")
 
 resolvers += Resolver.jcenterRepo
