@@ -1,6 +1,6 @@
 name := "scala-aws-lambda-utils"
 organization := "io.github.yeghishe"
-version := "0.0.3"
+version := "0.0.4"
 scalaVersion := "2.11.8"
 scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf8")
 
